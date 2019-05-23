@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Навигатор</title>
+		<link rel="stylesheet" href="style.css">
+
+		<!--
+		Окулов С.М.
+		14.05.2019
+		-->
+	</head>
+
+	<body>
+		<!--Шапка файла-->
+		<div class="head">
+			Навигатор
+		</div>
+
+		<!--Прелоадер начальной загрузки-->
+		<div class="preloader__wrap_main">
+			<img src="img/spinner.svg" class="preloader"></img>
+		</div>
+
+		<!--Главное меню-->
+		<div class="menu">
+		</div>
+
+		<!--Правая часть файла для вывода содержимого пунктов-->
+		<div id="output">
+			<!--Прелоадер загрузки текстов-->
+			<div class="preloader__wrap_output invis">
+				<img src="img/spinner.svg" class="preloader"></img>
+			</div>	
+			<!--Вывод фрейма с Google Docs-->
+			<div id="output__inner">
+			</div>
+		</div>
+
+
+		<script src="main.js"></script>
+		<script src="api.js"></script>
+	</body>
+</html>
