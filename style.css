@@ -1,0 +1,87 @@
+/*Для документа в целом*/
+body {
+	font-family: tahoma, Arial;
+    font-size: 15px;
+    color: #333;
+	margin: 0px;
+    padding: 0px;
+}
+
+a {
+	cursor: pointer
+}
+
+.invis{
+	display: none;
+}
+
+/*Стиль для выделения щелчком*/
+.active {
+    background-color: #74a3c7;
+    color: #fff;
+}
+
+.head {
+	width: 100%;
+    background-color: #f7f7ff;
+    text-align: center;
+    font-family: tahoma;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.menu {
+    height: 95vh;
+	width: 26%;
+    float: left;
+    overflow: auto;
+}
+
+.menu__title{
+	background-color: #eaecee;
+    padding: 7px;
+    font-family: tahoma;
+    text-align: center;
+}
+
+.menu__item{
+ 	padding: 7px;
+    cursor: pointer;
+}
+
+#output {
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #dddfe0;
+    margin-bottom: -1px;
+    padding-left: 30px;
+    overflow: auto;
+}
+
+#output__inner {
+    height: 95vh;
+    overflow: auto;
+}
+
+.objection{
+ 	padding: 7px;
+    cursor: pointer;
+}
+
+.caption {
+    color: #22a053;
+    font-weight: bold;
+}
+
+.frame {
+    width: 100%;
+    height: 100%;
+    frameborder: 'yes';
+}
+
+.preloader {
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 100px;
+}
